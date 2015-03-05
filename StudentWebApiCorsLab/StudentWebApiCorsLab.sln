@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentAPI", "StudentWebApiCorsLab\StudentAPI.csproj", "{853861EB-F77D-4672-AE6F-0FD57588527D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorsStudentClient", "CorsStudentClient\CorsStudentClient.csproj", "{8E279B5C-141F-4ADE-A964-9832BE653B3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{853861EB-F77D-4672-AE6F-0FD57588527D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{853861EB-F77D-4672-AE6F-0FD57588527D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{853861EB-F77D-4672-AE6F-0FD57588527D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E279B5C-141F-4ADE-A964-9832BE653B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E279B5C-141F-4ADE-A964-9832BE653B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E279B5C-141F-4ADE-A964-9832BE653B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E279B5C-141F-4ADE-A964-9832BE653B3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
