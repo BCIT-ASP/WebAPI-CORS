@@ -1,0 +1,5 @@
+﻿Migration commands:
+
+Enable-Migrations -ContextTypeName StudentApiContext -MigrationsDirectory Migrations\StudentAPI
+add-migration -ConfigurationTypeName StudentWebApiCorsLab.Migrations.StudentAPI.Configuration "InitialCreate"
+update-database -ConfigurationTypeName StudentWebApiCorsLab.Migrations.StudentAPI.Configuration
